@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.totalform {
+    margin: 30px;
+}
+
+.totalform__h1 {
+    color: rgb(93, 26, 238);
+}
+
+.fillingform {
+    border: solid 10px pink;
+    color: black;
+    margin: 30px;
+    display: inline-block;
+}
+
+.fillingform__form__table,
+.secondform__form__table {
+    padding: 10px;
+}
+
+.fillingform--rows th {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fillingform--rows td {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fillingform--rows input {
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 0.5px grey;
+    outline: none;
+}

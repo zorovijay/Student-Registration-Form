@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="totalform">
+        <h1 class="totalform__h1">Student Form</h1>
+        <div class="fillingform">
+            <form class="fillingform__form">
+                <table class="fillingform__form__table">
+                    <tr class="fillingform--rows">
+                        <th>Name</th>
+                        <td><input id="name" type="text" placeholder="Enter name"></td>
+                    </tr>
+                    <tr class="fillingform--rows">
+                        <th>Age</th>
+                        <td><input id="age" type="number" placeholder="Enter age"></td>
+                    </tr>
+                    <tr class="fillingform--rows">
+                        <th>Gender</th>
+                        <td><input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                        </td>
+
+                    </tr>
+                    <tr class="fillingform--rows">
+                        <th>Course</th>
+                        <td><select name="" id="course">
+                                <option>Javascript</option>
+                                <option>HTML</option>
+                                <option>CSS</option>
+                                <option>React.js</option>
+                            </select></td>
+                    </tr>
+                    <tr class="fillingform--rows">
+                        <th>Email</th>
+                        <td><input id="email" type="email" placeholder="Enter Email"></td>
+                    </tr>
+                    <tr class="fillingform--rows">
+                        <td><button type="button" id="btn-save" style="width: 100%;cursor: pointer;">Save</button></td>
+                    </tr>
+                </table>
+
+            </form>
+        </div>
+
+        <div class="secondform">
+            <form class="secondform__form">
+                <table border="10" id="mytable" class="secondform__form__table">
+                    <tr secondform--rows>
+                        <th style="padding: 5px;border-radius: 5px;">NAME</th>
+                        <th style="padding: 5px;border-radius: 5px;">AGE</th>
+                        <th style="padding: 5px;border-radius: 5px;">COURSE</th>
+                        <th style="padding: 5px;border-radius: 5px;">GENDER</th>
+                        <th style="padding: 5px;border-radius: 5px;">EMAIL</th>
+                        <th style="padding: 5px;border-radius: 5px;">ACTION</th>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
